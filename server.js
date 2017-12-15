@@ -56,6 +56,16 @@ app.get('/',(resquest, response) => {
 
 });
 
+app.get('/projects', (resquest, response) => {
+
+    response.render('/projects.hbs',{
+
+        pageTitle:'Projects' 
+
+    })
+
+});
+
 app.get('/about',(resquest, response) => {
 
     response.render('about.hbs',{
