@@ -58,7 +58,7 @@ app.get('/',(resquest, response) => {
 
 app.get('/projects', (resquest, response) => {
 
-    response.render('/projects.hbs',{
+    response.render('projects.hbs',{
 
         pageTitle:'Projects' 
 
